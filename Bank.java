@@ -16,7 +16,8 @@ public class Bank {
 			bank.run();
 		}
 	
-		/* Run the program by initializing and managing, bank accounts and customers
+		/* 
+		 * Run the program by initializing and managing, bank accounts and customers
 		 * Declaration order of methods does not matter
       		 */
 		public void run() {
