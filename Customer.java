@@ -26,11 +26,11 @@ public class Customer {
 		 * @param name of customer
 		 **/
 		public Customer(String name) { 
-				//"this" is a reference variable that refers to the current object
-				// it can be used to refer to instance variables or methods of the current class
-				// or passed as an argument in a method call
-				this.name = name ;
-        // set instance var name to given name
+			//"this" is a reference variable that refers to the current object
+			// it can be used to refer to instance variables or methods of the current class
+			// or passed as an argument in a method call
+			this.name = name ;
+        		// set instance var name to given name
 		}
 
 		//methods
@@ -40,14 +40,15 @@ public class Customer {
 		 * @param address of the customer
 		 **/
 		public void setAddress(String address) {
-				this.address = address;
-
+			this.address = address;
+		}
+	
 		/**
 		 * Return customers' name
 		 * @return name of customers
 		 **/
 		public String getName() {
-				return this.name;
+			return this.name;
 		}
 
 		/**
@@ -55,7 +56,7 @@ public class Customer {
 		 * @return address of customers
 		 **/
 		public String getAddress() {
-				return this.address;
+			return this.address;
 		}
 
 	}
